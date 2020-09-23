@@ -1,0 +1,33 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    x = int(input())
+    y = int(input())
+    # the variables `x` and `y` are defined, so just print their sum
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7175
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 12. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    8
+    11
+    Correct output:
+    19
+
+    Your code output:
+    19
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 11, in <module>
+        print(sum1(2,))
+    TypeError: sum1() missing 1 required positional argument: 'a'
+  time: Wed, 23 Sep 2020 13:34:59 UTC
+record: -1
